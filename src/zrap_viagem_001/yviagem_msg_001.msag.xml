@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>YVIAGEM_MSG_001</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Mensagens APP Viagens</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YVIAGEM_MSG_001</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Data de início &amp;1 não deve ser maior que a data fim &amp;2 para a viagem &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YVIAGEM_MSG_001</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Data de início &amp;1 deve ser igual ou maior a data do sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YVIAGEM_MSG_001</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Cliente &amp;1 não existe.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YVIAGEM_MSG_001</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Agência &amp;1 não existe</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YVIAGEM_MSG_001</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Você não está autorizado a realizar esta atividade.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

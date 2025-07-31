@@ -1,7 +1,7 @@
 managed;
 //strict ( 2 );
 define behavior for YI_VIAGEM_001 alias Viagem
-implementation in class ycl_viagem_dflc unique
+implementation in class ycl_viagem_001 unique
 persistent table ytviagem_001
 lock master
 //authorization master ( instance )

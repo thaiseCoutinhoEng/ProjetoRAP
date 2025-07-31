@@ -41,7 +41,7 @@ METHOD if_oo_adt_classrun~main.
   METHOD metodo_read.
 
     " Seleção simples utilizando EML
-    "READ ENTITIES OF yi_viagem_0001
+    "READ ENTITIES OF yi_viagem_001
     "  ENTITY Viagem
     "    FROM VALUE #( ( ViagemUUID = '994839E229B791571900FDE605BA7F5C' ) )
     "  RESULT DATA(lt_viagens).
@@ -49,7 +49,7 @@ METHOD if_oo_adt_classrun~main.
     "io_out->write( lt_viagens ).
 
     " Seleção definindo os campos requeridos
-    "READ ENTITIES OF yi_viagem_0001
+    "READ ENTITIES OF yi_viagem_001
     "  ENTITY Viagem
     "    FIELDS ( AgenciaID ClienteID )
     "    WITH VALUE #( ( ViagemUUID = '994839E229B791571900FDE605BA7F5C' ) )
@@ -58,7 +58,7 @@ METHOD if_oo_adt_classrun~main.
     "io_out->write( lt_viagens ).
 
     " Seleção de todos os campos
-    "READ ENTITIES OF yi_viagem_0001
+    "READ ENTITIES OF yi_viagem_001
     "  ENTITY Viagem
     "    ALL FIELDS
     "    WITH VALUE #( ( ViagemUUID = '994839E229B791571900FDE605BA7F5C' ) )
